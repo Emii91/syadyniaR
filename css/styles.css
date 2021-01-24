@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../fonts/Source_Sans_Pro/SourceSansPro-Black.ttf") format("truetype");
+    src: url("../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf") format("truetype");
+    src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf") format("truetype");
+}
+
 html, body {
     width: 100%;
     height: 100%;
@@ -6,6 +13,18 @@ html, body {
 
 html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    max-width: 200px;
+    padding: 20px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .nav {
@@ -22,9 +41,14 @@ html {
 .menu a {
     clear: right;
     text-decoration: none;
-    color: gray;
+    color: #0A3641;
+    background-color: #ffffff;
     margin: 0 10px;
     line-height: 70px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro Black';
+    font-size: 20px;
+    padding: 10px;
 }
 
 label {
@@ -40,7 +64,47 @@ label {
     display: none;
 }
 
-@media only screen and (max-width: 595px) {
+.head-module {
+    background-image: url(../images/headerphoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641;
+    padding: 230px;
+    margin: 0px;
+}
+
+h1 {
+font-size: 100px;
+text-align: center;
+color: #ffffff;
+}
+
+.shop-now .btn {
+    background-color: #8C3723;
+    color: #ffffff;
+    font-family: "Source Sans Pro Black";
+    text-transform: uppercase;
+    padding: 20px 100px;
+    font-size: 26px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.shop-now {
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+    header {
+        justify-content: space-between;
+    }
     label {
         display: block;
         cursor: pointer;
@@ -52,10 +116,43 @@ label {
     }
     .menu a {
         display: block;
-        border-bottom: 1px solid #eaeaeb;
+        border-bottom: 1px solid #ffffff;
         margin: 0;
     }
     #toggle:checked + .menu {
         display: block;
+    }
+    .head-module {
+        padding: 100px;
+    }
+}
+
+@media only screen and (max-width: 699px) {
+h1 {
+    font-size: 25px;
+}
+.shop-now .btn {
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+}
+
+@media only screen and (max-width: 550px) {
+    .logo {
+        max-width: 100px;
+    }
+    .menu a {
+        font-size: 10px;
+        padding: 0px;
+        border-bottom: 1px solid #ffffff;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .shop-now .btn {
+        padding: 5px 30px;
+        font-size: 10px;
+        border-radius: 25px;
     }
 }
