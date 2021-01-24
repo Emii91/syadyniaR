@@ -99,7 +99,52 @@ color: #ffffff;
     margin-bottom: 50px;
 }
 
+/*Module Two*/
 
+.module-two img {
+    max-width: 100%;
+    padding: 20px;
+    margin-top: 80px;
+    display: flex;
+}
+
+.module-two a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Source Sans Pro Black';
+    font-size: 30px;
+    color: #0A3641; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+button.btn-small {
+    background-color: #8C3723;
+    color: #ffffff;
+    font-family: "Source Sans Pro Black";
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 25px;
+}
+
+.women-module {
+    float: left;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.hikinggear-module {
+    float: left;
+    text-align: center;
+}
+
+.men-module {
+    float: left;
+    text-align: center;
+}
 
 @media only screen and (max-width: 1100px) {
     header {
@@ -127,16 +172,16 @@ color: #ffffff;
     }
 }
 
-@media only screen and (max-width: 699px) {
-h1 {
-    font-size: 25px;
-}
-.shop-now .btn {
-    padding: 10px 40px;
-    font-size: 20px;
-    border-radius: 25px;
-}
-}
+@media only screen and (max-width: 750px) {
+    h1 {
+        font-size: 25px;
+    }
+    .shop-now .btn {
+        padding: 10px 40px;
+        font-size: 20px;
+        border-radius: 25px;
+    }
+    }
 
 @media only screen and (max-width: 550px) {
     .logo {
