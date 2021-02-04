@@ -103,9 +103,8 @@ color: #ffffff;
 
 .module-two img {
     max-width: 100%;
-    padding: 20px;
+    padding: 40px 0px 0px 40px;
     margin-top: 80px;
-    display: flex;
 }
 
 .module-two a {
@@ -116,7 +115,7 @@ color: #ffffff;
     color: #0A3641; 
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 button.btn-small {
@@ -133,7 +132,7 @@ button.btn-small {
 .women-module {
     float: left;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 .hikinggear-module {
@@ -145,6 +144,111 @@ button.btn-small {
     float: left;
     text-align: center;
 }
+
+h2 {
+    text-align: center;
+    font-family: "Source Sans Pro Black";
+    color: #0A3641;
+    font-size: 30px;
+    margin: 50px 260px;
+}
+
+/*Module 3*/
+
+.img-module3 {
+    max-width: 100%;
+    width: 50%;
+}
+
+section.module-3 {
+    display: flex;
+    margin-top: 100px;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Source Sans Pro Black";
+    color: #0A3641;
+    font-size: 30px;
+    margin: 160px 40px;
+}
+
+.gallery {
+    margin-top: 100px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #0A3641;
+    color: white;
+    font-family: "Source Sans Pro Black";
+    display: flex;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+footer a {
+    color: white;
+    font-family: "Source Sans Pro Regular";
+    display: block;
+    padding: 0px 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    }
+
+.footer-1,
+.footer-2,
+.footer-3 {
+    padding: 20px 80px;
+    padding-bottom: 40px;
+}
+
+.footer-4 {
+    padding: 10px 150px;
+}
+
+/* New Arrivals page*/
+.head-module-newarrivals {
+    background-image: url(../images/newarrivals.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641;
+    padding: 230px;
+    margin: 0px;
+}
+
+
+/* Mens outerwear page*/
+
+.head-module-men {
+    background-image: url(../images/Mens\ outerwear.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641;
+    padding: 230px;
+    margin: 0px;
+}
+
+/* Womens outerwear page*/
+.head-module-women {
+    background-image: url(../images/Womens\ outerwear.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641;
+    padding: 230px;
+    margin: 0px;
+}
+
 
 @media only screen and (max-width: 1100px) {
     header {
@@ -176,10 +280,22 @@ button.btn-small {
     h1 {
         font-size: 25px;
     }
+    .head-module {
+        background-size: cover;
+    }
     .shop-now .btn {
         padding: 10px 40px;
         font-size: 20px;
         border-radius: 25px;
+    }
+    section.module-two {
+        display: grid;
+    }
+    .women-module {
+        margin-left: 0px;
+    }
+    .module-two img {
+        margin-top: 10px;
     }
     }
 
@@ -199,5 +315,23 @@ button.btn-small {
         padding: 5px 30px;
         font-size: 10px;
         border-radius: 25px;
+    }
+    button.btn-small {
+        padding: 5px 30px;
+        font-size: 10px;
+        border-radius: 25px; 
+    }
+    section.module-two {
+        display: grid;
+    }
+    .module-two img {
+        margin-top: 40px;
+        padding: 0px;
+    }
+    .module-two a {
+        font-size: 15px;
+    }
+    .women-module {
+        margin-left: 0px;
     }
 }
