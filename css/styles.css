@@ -177,6 +177,26 @@ h3 {
     margin-top: 100px;
 }
 
+section.gallery {
+    height: 804px;
+}
+
+.img-1 {
+    float: left;
+}
+
+.img-2 {
+    float: left;
+}
+
+.img-3 {
+    float: left;
+}
+
+.img-4 {
+    float: left;
+}
+
 
 /* Footer */
 
@@ -211,7 +231,30 @@ footer a:hover {
     padding: 10px 150px;
 }
 
+/*Products*/
+
+p {
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641; 
+    font-size: 30px; 
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.product-list {
+    margin-top: 80px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.product-list img {
+    margin-top: 30px;
+}
+
+
 /* New Arrivals page*/
+
 .head-module-newarrivals {
     background-image: url(../images/newarrivals.jpg);
     background-size: cover;
@@ -263,6 +306,7 @@ footer a:hover {
     margin: 0px;
 }
 
+
 /* About Us page*/
 
 .head-module-aboutus {
@@ -276,7 +320,40 @@ footer a:hover {
     margin: 0px;
 }
 
+.about-text {
+    font-family: 'Source Sans Pro Regular';
+    color: #0A3641;
+    padding: 30px 50px 20px 50px;  
+    margin: 0px; 
+    font-size: 20px;
+    text-align: center;
+    text-transform: none;
+}
 
+img.bottom-img {
+    max-width: 100%;
+    margin-top: 50px;
+}
+
+/*Contact Us*/
+
+h1.contact-about {
+    color: #0A3641; 
+    font-family: 'Source Sans Pro Black';
+}
+
+h2.contact-about {
+    text-align: center;
+    margin: 0px;
+}
+
+.contact-img {
+    float: left;
+}
+
+.clear {
+    clear: left;
+}
 
 
 @media only screen and (max-width: 1100px) {
