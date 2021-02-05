@@ -105,6 +105,7 @@ color: #ffffff;
     max-width: 100%;
     padding: 40px 0px 0px 40px;
     margin-top: 80px;
+    width: 350px;
 }
 
 .module-two a {
@@ -127,6 +128,7 @@ button.btn-small {
     padding: 10px 40px;
     border: none;
     border-radius: 25px;
+    margin-bottom: 80px;
 }
 
 .women-module {
@@ -173,28 +175,30 @@ h3 {
     margin: 160px 40px;
 }
 
-.gallery {
-    margin-top: 100px;
-}
-
 section.gallery {
     height: 804px;
+    margin-top: 100px;
 }
 
 .img-1 {
     float: left;
+    width: 400px;
+    margin-left: 50px;
 }
 
 .img-2 {
     float: left;
+    width: 400px;
 }
 
 .img-3 {
     float: left;
+    width: 400px;
 }
 
 .img-4 {
     float: left;
+    width: 400px;
 }
 
 
@@ -237,7 +241,7 @@ p {
     font-family: 'Source Sans Pro Black';
     color: #0A3641; 
     font-size: 30px; 
-    margin: 0px;
+    margin: 0px 0px 0px 20px;
     text-transform: uppercase;
 }
 
@@ -250,6 +254,8 @@ p {
 
 .product-list img {
     margin-top: 30px;
+    margin-left: 20px;
+    width: 350px;
 }
 
 
@@ -306,6 +312,11 @@ p {
     margin: 0px;
 }
 
+h1.hiking {
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641;
+}
 
 /* About Us page*/
 
@@ -345,6 +356,7 @@ h1.contact-about {
 h2.contact-about {
     text-align: center;
     margin: 0px;
+    height: 398px
 }
 
 .contact-img {
