@@ -64,6 +64,12 @@ label {
     display: none;
 }
 
+.shopping-cart {
+    width: 40px;
+    height: 35px;
+    margin-left: 40px;
+}
+
 .head-module {
     background-image: url(../images/headerphoto.jpg);
     background-size: cover;
@@ -99,7 +105,34 @@ color: #ffffff;
     margin-bottom: 50px;
 }
 
+.module-4 {
+    display: flex;
+    max-width: 100%;
+    height: 500px;
+}
+
+.module-4-img-1 {
+    margin-left: 30px;
+}
+
+.module-4-img-3 {
+    width: 494px;
+    height: 250px;
+}
+
+.module-4-img-4 {
+    width: 494px;
+    height: 250px;
+    margin-top: 250px;
+    position: absolute;
+    margin-left: 695px;
+}
+
 /*Module Two*/
+
+.module-two {
+    height: 700px;
+}
 
 .module-two img {
     max-width: 100%;
@@ -164,7 +197,7 @@ h2 {
 
 section.module-3 {
     display: flex;
-    margin-top: 100px;
+    margin: 100px 0px;
 }
 
 h3 {
@@ -175,33 +208,6 @@ h3 {
     margin: 160px 40px;
 }
 
-section.gallery {
-    height: 804px;
-    margin-top: 100px;
-}
-
-.img-1 {
-    float: left;
-    width: 400px;
-    margin-left: 50px;
-}
-
-.img-2 {
-    float: left;
-    width: 400px;
-}
-
-.img-3 {
-    float: left;
-    width: 400px;
-}
-
-.img-4 {
-    float: left;
-    width: 400px;
-}
-
-
 /* Footer */
 
 footer {
@@ -209,7 +215,6 @@ footer {
     color: white;
     font-family: "Source Sans Pro Black";
     display: flex;
-    width: 100%;
     text-transform: uppercase;
 }
 
@@ -217,23 +222,26 @@ footer a {
     color: white;
     font-family: "Source Sans Pro Regular";
     display: block;
-    padding: 0px 10px;
+    padding: 0px 50px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 100px;
 }
 
 footer a:hover {
-    text-decoration: underline;
-    }
-
-.footer-1,
-.footer-2,
-.footer-3 {
-    padding: 20px 80px;
-    padding-bottom: 40px;
+    font-size: 25px;
+    transition: 0.3s ease-out;
 }
 
-.footer-4 {
-    padding: 10px 150px;
+.foot-head {
+    margin: 0px;
+    color: #ffffff;
 }
+
+.fab {
+    margin-left: 10px;
+}
+
 
 /*Products*/
 
@@ -243,6 +251,10 @@ p {
     font-size: 30px; 
     margin: 0px 0px 0px 20px;
     text-transform: uppercase;
+}
+
+.product-item {
+    float: left;
 }
 
 .product-list {
@@ -258,6 +270,63 @@ p {
     width: 350px;
 }
 
+.product-detail {
+    margin: 100px 0px;
+}
+
+.product-top {
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641; 
+    font-size: 50px; 
+    text-transform: uppercase;
+}
+
+.product-price {
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641; 
+    font-size: 30px; 
+    text-transform: uppercase;
+    margin: 0px;
+    text-align: center;
+}
+
+.product-text {
+    font-family: 'Source Sans Pro Black';
+    color: #0A3641; 
+    font-size: 20px; 
+    text-transform: none;
+    margin: 0px;
+    text-align: center;
+}
+
+.button-size {
+    margin-left: 50%;
+    padding: 20px;
+}
+
+.btn-size {
+    background-color: #15748C;
+    color: #ffffff;
+    font-family: "Source Sans Pro Black";
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.btn-cart {
+    background-color: #8C3723;
+    color: #ffffff;
+    font-family: "Source Sans Pro Black";
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 15px 70px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 80px; 
+}
 
 /* New Arrivals page*/
 
@@ -270,6 +339,13 @@ p {
     color: #0A3641;
     padding: 230px;
     margin: 0px;
+}
+
+.choose-size {
+    margin: 0px;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Source Sans Pro Regular';
 }
 
 
@@ -285,6 +361,7 @@ p {
     padding: 230px;
     margin: 0px;
 }
+
 
 /* Womens outerwear page*/
 
@@ -316,6 +393,19 @@ h1.hiking {
     text-transform: uppercase;
     font-family: 'Source Sans Pro Black';
     color: #0A3641;
+}
+
+.btn-cart-hike {
+    background-color: #8C3723;
+    color: #ffffff;
+    font-family: "Source Sans Pro Black";
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 15px 70px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 80px; 
+    margin-left: 260px;
 }
 
 /* About Us page*/
@@ -368,7 +458,8 @@ h2.contact-about {
 }
 
 
-@media only screen and (max-width: 1100px) {
+
+@media only screen and (max-width: 1200px) {
     header {
         justify-content: space-between;
     }
@@ -391,6 +482,13 @@ h2.contact-about {
     }
     .head-module {
         padding: 100px;
+    }
+    .module-4 {
+        display: grid;
+    }
+    .module-4-img-4 {
+        position: relative;
+        margin: 0px;
     }
 }
 
