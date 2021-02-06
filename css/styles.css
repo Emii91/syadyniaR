@@ -208,40 +208,6 @@ h3 {
     margin: 160px 40px;
 }
 
-/* Footer */
-
-footer {
-    background-color: #0A3641;
-    color: white;
-    font-family: "Source Sans Pro Black";
-    display: flex;
-    text-transform: uppercase;
-}
-
-footer a {
-    color: white;
-    font-family: "Source Sans Pro Regular";
-    display: block;
-    padding: 0px 50px;
-    text-decoration: none;
-    font-size: 20px;
-    margin: 0px 100px;
-}
-
-footer a:hover {
-    font-size: 25px;
-    transition: 0.3s ease-out;
-}
-
-.foot-head {
-    margin: 0px;
-    color: #ffffff;
-}
-
-.fab {
-    margin-left: 10px;
-}
-
 
 /*Products*/
 
@@ -458,6 +424,11 @@ h2.contact-about {
 }
 
 
+/* Footer */
+
+
+
+/* Media */
 
 @media only screen and (max-width: 1200px) {
     header {
@@ -490,6 +461,13 @@ h2.contact-about {
         position: relative;
         margin: 0px;
     }
+    .button-size {
+        padding: 0px;
+        margin-left: 0px;
+    }
+    .product-item {
+        float: none;
+    }
 }
 
 @media only screen and (max-width: 750px) {
@@ -513,7 +491,7 @@ h2.contact-about {
     .module-two img {
         margin-top: 10px;
     }
-    }
+}
 
 @media only screen and (max-width: 550px) {
     .logo {
